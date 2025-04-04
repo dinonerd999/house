@@ -6,9 +6,9 @@
 void frame(int Height) {
   pushMatrix();
   translate(houseX, houseY);
-  fill(#9B9667);
+  fill(random(100, 150),random(100, 120),40);
   rect(-50, -40, 100, 80);
-  fill(#9B3232);
+  fill(random(70, 240), 13, 13);
   triangle(-50, -40, 0, Height, 50, -40);
   
   popMatrix();
